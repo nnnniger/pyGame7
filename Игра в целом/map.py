@@ -40,6 +40,9 @@ class Player(pygame.sprite.Sprite):
 
 
 
+
+
+
 def generate_level(level, player_group, tiles_group, all_sprites):
     new_player, player_x, player_y = None, None, None
     for y in range(len(level)):
